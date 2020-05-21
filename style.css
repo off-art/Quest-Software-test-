@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progressNumber {
+  margin-top: 20px;
+  width: 20%;
+}
+.progress {
+  height: 40px;
+  width: 400px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+}
+
+.progress-done {
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  border-radius: 20px;
+  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  height: 100%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  width: 0px;
+  transition: 1s ease;
+}
